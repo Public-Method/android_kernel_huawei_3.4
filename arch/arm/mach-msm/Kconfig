@@ -2744,3 +2744,15 @@ config HUAWEI_KERNEL_DEBUG
 	default n
 	help
 	  Select Y if print HUAWEI log
+
+config ENABLE_BTLA_VER30
+  bool "Select Huawei Broadcom BCM43XX Bluetooth"
+  default n
+  help
+    Select Y to use Broadcom's BTLA stack. Used by BCM4330 and BCM4329.
+
+config ENABLE_BLUEZ_VER30
+  bool "Select Huawei Qualcomm WCN2243 Bluetooth"
+  default n
+  help
+    Select Y to use Qualcomm's BlueZ stack. Used by WCN2243.
